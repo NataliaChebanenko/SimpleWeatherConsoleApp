@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWeatherConsole", "SimpleWeatherConsole\SimpleWeatherConsole.csproj", "{EC311AFD-F65A-4A1E-AF8E-D71D8AA6FB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWeatherConsole.Tests", "SimpleWeatherConsole.Tests\SimpleWeatherConsole.Tests.csproj", "{D964BF6B-0168-464E-89D0-83FA7DE3421B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC311AFD-F65A-4A1E-AF8E-D71D8AA6FB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC311AFD-F65A-4A1E-AF8E-D71D8AA6FB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC311AFD-F65A-4A1E-AF8E-D71D8AA6FB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC311AFD-F65A-4A1E-AF8E-D71D8AA6FB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D964BF6B-0168-464E-89D0-83FA7DE3421B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D964BF6B-0168-464E-89D0-83FA7DE3421B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D964BF6B-0168-464E-89D0-83FA7DE3421B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D964BF6B-0168-464E-89D0-83FA7DE3421B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3F5DAC-2FF1-40E5-8A95-77A53EC9BBC1}
+	EndGlobalSection
+EndGlobal
