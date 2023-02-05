@@ -46,7 +46,6 @@ class Program
             Console.WriteLine($"Weather data for city {weather.Data[i].CityName}");
             Console.WriteLine($"Temperature: {weather.Data[i].Temp}");
             Console.WriteLine($"Sunset: {weather.Data[i].Sunset}");
-            Console.WriteLine($"Snow: {weather.Data[i].Snow}");
             Console.WriteLine($"Latitude: {weather.Data[i].Lat}");
             Console.WriteLine($"Longitude: {weather.Data[i].Lon}");
             Console.WriteLine($"Clouds: {weather.Data[i].Clouds}");

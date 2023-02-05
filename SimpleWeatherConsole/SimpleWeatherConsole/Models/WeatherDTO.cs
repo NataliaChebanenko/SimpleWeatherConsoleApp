@@ -56,9 +56,6 @@ namespace SimpleWeatherConsole.Models
         [JsonPropertyName("pod")]
         public string Pod { get; set; }
 
-        [JsonPropertyName("precip")]
-        public double Precip { get; set; }
-
         [JsonPropertyName("pres")]
         public double Pres { get; set; }
 
@@ -68,8 +65,7 @@ namespace SimpleWeatherConsole.Models
         [JsonPropertyName("slp")]
         public double Slp { get; set; }
 
-        [JsonPropertyName("snow")]
-        public int Snow { get; set; }
+
 
         [JsonPropertyName("solar_rad")]
         public double SolarRad { get; set; }
